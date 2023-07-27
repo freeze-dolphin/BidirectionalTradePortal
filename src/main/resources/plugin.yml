@@ -1,0 +1,14 @@
+name: BidirectionalTradePortal
+version: ${version}
+author: Sapphira Tempest
+description: Make trades with nether and ender citizens.
+
+main: io.sn.bdtportal.TradePortal
+depend:
+  - Slimefun
+  - ItemsAdder
+
+api-version: 1.20
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.8.20
